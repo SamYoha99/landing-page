@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GloHam landing page</title>
+    <!-- normalize css-->
+    <link rel="stylesheet" href="normalize.css">
+    <!--- font -->
+    <link rel="stylesheet" href="fonts.css">
+    <!-- css-->
+    <link rel="stylesheet" href="style.css">
+    <!-- contact css-->
+    <link rel="stylesheet" href="contact.css">
+    <!-- font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--owl carousel-->
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+</head>
+<body>
+    
+    <!--header-->
+    <header class="header" id="intro">
+        <nav class = "navbar">
+            <div class="container">
+                <div class="brand-and-toggler">
+                    <a href="index.html" class=
+                    "navbar-brand">GloHam<span></span></a>
+                    <button type="button" class="navbar-toggler" id
+                    ="navbar-toggler">
+                    <i class=" fas fa-bars"></i>
+                </button>
+                </div>
+
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">about us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#detail" class="nav-link">products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#feature" class="nav-link">service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+            
+
+
+            <div class="contact-container">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                    <div class="contact-left-title">
+                        <h2>Get in touch</h2>
+                        <hr>
+                    </div>
+                    <input type="hidden" name="access_key" value="38bb705b-613b-4171-b708-d61ef2425e96">
+                    <input type="text" name="name" placeholder="Your name" class="contact-inputs" required>
+                    <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                    <textarea name="message" placeholder="Your Message" class="contact-inputs" required ></textarea>
+                    <button type="submit"><img src="assets/arrow_icon.png" alt=""></button>
+                </form>
+
+
+</body>
+</html>
